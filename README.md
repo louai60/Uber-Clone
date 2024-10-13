@@ -1,50 +1,68 @@
-# Welcome to your Expo app 👋
+# Uber Clone
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This project is a clone of the Uber app built using React Native and Expo. It aims to replicate some of the core features of Uber, providing a functional prototype for educational purposes.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **User Authentication**: Sign up, sign in, and manage user sessions.
+- **Ride Booking**: Users can book a ride, choose their pickup and drop-off locations.
+- **Driver Interface**: Separate interfaces for drivers to accept rides and manage their trips.
+- **Payment Integration**: Simulated payment processing for ride fares.
+- **Location Services**: Integration with Google Maps API for real-time GPS tracking and route mapping.
 
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm or yarn
+- Expo CLI
+- Android/iOS Simulator or a physical device
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/louai60/uber-clone.git
+   cd uber-clone
+   ```
+
+2. Install the dependencies:
    ```bash
    npm install
+   # or
+   yarn install
    ```
 
-2. Start the app
-
+3. Start the Expo development server:
    ```bash
-    npx expo start
+   expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. Open the project in your iOS or Android simulator, or scan the QR code with your device using the Expo Go app.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Usage
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Describe how to use the app, including any setup required for API keys or other configurations.
 
-## Get a fresh project
+## Built With
 
-When you're ready, run:
+- [React Native](https://reactnative.dev/) - The framework used
+- [Expo](https://expo.dev/) - Platform for native apps
+- [Firebase](https://firebase.google.com/) - Backend and authentication
+- [Google Maps API](https://developers.google.com/maps) - For location and maps functionality
 
-```bash
-npm run reset-project
-```
+## Contributing
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Contributions are welcome! Please read `CONTRIBUTING.md` for details on our code of conduct and the process for submitting pull requests.
 
-## Learn more
+## License
 
-To learn more about developing your project with Expo, look at the following resources:
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Acknowledgments
 
-## Join the community
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
